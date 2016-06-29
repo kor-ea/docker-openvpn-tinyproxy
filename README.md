@@ -1,4 +1,5 @@
 # docker-openvpn-tinyproxy
+0. `git pull https://github.com/kor-ea/docker-openvpn-tinyproxy/`
 1. Install docker;
 2. Install docker-compose from `https://github.com/docker/compose/releases`;
 3. Adjust and run `./changesubnet.sh` if needed to change docker subnet;
