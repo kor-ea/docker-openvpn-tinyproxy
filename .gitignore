@@ -2,3 +2,4 @@
 *.swp
 tinyproxy.log
 tinyproxy.pid
+configs/
