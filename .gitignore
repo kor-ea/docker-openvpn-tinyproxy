@@ -1,3 +1,4 @@
-vpnbook*
+*.ovpn
+*.swp
 tinyproxy.log
 tinyproxy.pid
