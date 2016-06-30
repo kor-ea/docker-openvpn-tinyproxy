@@ -8,4 +8,5 @@
 7. Run `./addauth.sh` to add auth to all configs/*.ovpn files;
 8. Run `./startdocker.sh`;
 9. Use proxies starting with `subnet.2` address, eg: `curl -x 192.168.0.2:80 ifconfig.co`;
-10. Shutdown containers `docker-compose down`;
+10. To view the list of running containers along with their IP addresses, run: `docker inspect -f '{{.Name}} - {{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' $(docker ps -aq)`
+11. To shutdown all containers: `docker-compose down`;
