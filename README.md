@@ -1,6 +1,5 @@
 # docker-openvpn-tinyproxy
-0. Ensure that the host uses public DNS servers (8.8.8.8 in /etc/resolv.conf)
-1. Increase maxkeys kernel parameters: `echo 1000 >> /proc/sys/kernel/keys/root_maxkeys; echo 1000 >> /proc/sys/kernel/keys/maxkeys`
+1. Ensure that the host uses public DNS servers (8.8.8.8 in /etc/resolv.conf)
 2. Install docker;
 3. Install docker-compose from `https://github.com/docker/compose/releases`;
 4. `git clone https://github.com/kor-ea/docker-openvpn-tinyproxy/`
